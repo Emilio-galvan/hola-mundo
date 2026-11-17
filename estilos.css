@@ -1,0 +1,67 @@
+:root {
+    --color-principal: red;
+    ;
+}
+
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+    padding: 24px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+
+h1 {
+    color: var(--color-principal);
+
+}
+
+section {
+    background-color: var(--color-principal);
+    ;
+    padding: 16px;
+    margin-bottom: 16px;
+    border-radius: 12px;
+}
+
+button {
+    background-color: rgb(19, 19, 170);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: royalblue;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 12px;
+    }
+}
+
+.acciones {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+body.oscuro {
+    background-color: #222;
+    color: white;
+}
+
+body.oscuro section {
+    background-color: #333;
+}
+
+#contador {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
