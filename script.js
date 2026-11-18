@@ -14,6 +14,7 @@ const horasRestantes = Math.floor(Math.max(0, diferencia) / (1000 * 60 * 60)) % 
 const minutosRestantes = Math.floor(Math.max(0, diferencia) / (1000 * 60)) % 60;
 if (diferencia <= 0) {
     contador.textContent = "llego el GTA 6!!!";
+
 } else {
     contador.textContent = "Faltan " + diasRestantes + " días, " + horasRestantes + " horas y " + minutosRestantes + " minutos para GTA VI."
 } const contadorPapa = document.querySelector("#contador-papa");
